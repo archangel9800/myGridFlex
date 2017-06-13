@@ -1,21 +1,25 @@
+.gri-cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 
-
-
+//выравнивание по центру вертикально
+.vert_center {
+    align-self: center;     
+}
+//выравнивание по центру горизонтально
+.hor_center {
+    text-align: center;
+    margin: 0 auto;
+}
 [class*='gr-'] {
-  float: left;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
-.gri-cont:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.gr_clear{
-  display: table;
-  clear: both;
-}
+
+
 //сетка
  
 @media only screen and (min-width: 0px) {
