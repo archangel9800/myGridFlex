@@ -18,4 +18,18 @@ section{
 
 
 
-
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+#page1{
+    width: 100vw;
+    height: 20vh;
+}
+.icon-facebook-logo-button {
+	height: 100%;
+	width: 20%;
+    color: red;
+}

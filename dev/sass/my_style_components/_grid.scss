@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
      }
-.flx{
+.flw{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -27,9 +27,18 @@
     .desk_wrap .horCenter {
 	    -webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
     }
+    .desk_wrap .horSpaceBetwen {
+	    -webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;
+    }
+    .desk_wrap .horSpaceAround {
+	    -ms-flex-pack: distribute;justify-content: space-around;
+    }
     .desk_wrap .horEnd {
 	    -webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;
     }
+
+
+
 
 
 
